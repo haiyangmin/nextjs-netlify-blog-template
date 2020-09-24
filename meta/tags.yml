@@ -5,3 +5,7 @@ tags:
     name: beef
   - slug: chicken
     name: chicken
+  - slug: pork-ear
+    name: Pork ear
+  - slug: pork-feet
+    name: Pork feet
