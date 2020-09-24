@@ -3,12 +3,38 @@
   "site_title": "Frozen Meat Trading Platform",
   "site_description": "a frozen meat trading platform",
   "site_keywords": [
-    "frozen meat",
-    "pork",
-    "beef",
-    "chicken"
+    {
+      "keyword": "frozen meat"
+    },
+    {
+      "keyword": "frozen pork"
+    },
+    {
+      "keyword": "frozen beef"
+    },
+    {
+      "keyword": "frozen chicken"
+    },
+    {
+      "keyword": "pork feet"
+    },
+    {
+      "keyword": "pork ear"
+    },
+    {
+      "keyword": "pork tail"
+    },
+    {
+      "keyword": "pork bone"
+    },
+    {
+      "keyword": "pork stomach"
+    },
+    {
+      "keyword": "pork kidney"
+    }
   ],
-  "posts_per_page": 5,
+  "posts_per_page": 10,
   "twitter_account": "@my-account",
   "github_account": "haiyangmin"
 }
