@@ -1,15 +1,16 @@
+import React from 'react';
+import Typography from '@material-ui/core/Typography';
+import MuiLink from '@material-ui/core/Link';
+
 export default function Copyright() {
-  return (
-    <>
-      <p>&copy; 2020</p>
-      <style jsx>
-        {`
-          p {
-            font-size: 0.75rem;
-            text-align: center;
-          }
-        `}
-      </style>
-    </>
-  );
+    return (
+        <Typography variant="body2" color="textSecondary" align="center">
+            {'Copyright © '}
+            <MuiLink color="inherit" href="https://www.easiafoodsou.com/">
+                Easia Foods OU
+            </MuiLink>{' '}
+            {new Date().getFullYear()}
+            {'.'}
+        </Typography>
+    );
 }

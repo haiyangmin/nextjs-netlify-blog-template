@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 import BasicMeta from "../components/meta/BasicMeta";
 import OpenGraphMeta from "../components/meta/OpenGraphMeta";
 import TwitterCardMeta from "../components/meta/TwitterCardMeta";
-import { SocialList } from "../components/SocialList";
+// import { SocialList } from "../components/SocialList";
 
 export default function Index() {
   return (
@@ -12,12 +12,26 @@ export default function Index() {
       <TwitterCardMeta url={"/"} />
       <div className="container">
         <div>
-          <h1>
-            Hi, We're Next.js & Netlify<span className="fancy">.</span>
-          </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
-          <h2>A blog template with Next.js and Netlify.</h2>
-          <SocialList />
+            <div>
+                <p>EASIA Foods OÜ is a trading company situated in Tallinn, Estonia. We are specialize in import-export of frozen pork, </p>
+                <p>beef and poultry meat and offal products. Our main commercial partners are from Europe and North/South America. </p>
+                <p>Currently our main export destination is Asia market.</p>
+            </div>
+
+            <div style={{marginTop: "40px"}}>
+                <p>We can offer a wide range of frozen meat products, the main products we offer are pork front feet, pork hind feet, </p>
+                <p>pork ears, ear flaps, pork stomach, pork tails, pork aorta, pork intestines, pork tongues, pork head, pork snout, </p>
+                <p>pork heart, pork bones, pork ribs, pork liver. beef short ribs, beef tripes, beef honeycomb, beef omasum, beef pizzle, </p>
+                <p>beef aorta, chicken feet, chicken wings. our products are sourced directly from reliable producer from Europe and North/South America.</p>
+            </div>
+
+            <div style={{marginTop: "40px"}}>
+                <p>We are interested in establishing a long term and mutual-beneficial business relationship with supplier and customers. </p>
+                <p>In order to offer the best quality and cost-effective products to our customers, We are carefully monitoring the quality</p>
+                <p> of products which we buy and sell by regular visits and audits of our suppliers.We would be grateful if you would consider to work with us.</p>
+            </div>
+
+          {/*<SocialList />*/}
         </div>
       </div>
       <style jsx>{`
